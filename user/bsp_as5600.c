@@ -7,8 +7,13 @@
 //#define BUFFER_SIZE 5
 #define DIFFERENCE_THRESHOLD 5.0
 
+<<<<<<< HEAD
 #define Proportion   2.92f
 #define Front_rise_length  250.1f //前伸
+=======
+#define Proportion   1.587f
+#define Front_rise_length  -250.1f //前伸
+>>>>>>> 877cee3dedf0fe638814a572108d61dbca3681dc
 
 static int t=1;
 static float angle_data_prev; //上次位置

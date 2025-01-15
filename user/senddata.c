@@ -9,7 +9,11 @@
 #include "stdio.h"
 #include "pitch_1.h"
 #include "yaw_roll.h"
+<<<<<<< HEAD
 #include "tim.h"
+=======
+
+>>>>>>> 877cee3dedf0fe638814a572108d61dbca3681dc
 
 void customDelay(uint32_t milliseconds)
 {
@@ -76,6 +80,7 @@ void SendDataTask(void)
   
 }
 
+<<<<<<< HEAD
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) // 该函数在 stm32f1xx_hal_tim.c 中定义为弱函数(__weak)，由用户再定义
 {
 	  if(htim == &htim2)
@@ -84,4 +89,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) // 该函数在 stm32f1x
 	SendDataTask();
 	 }
 }
+=======
+
+>>>>>>> 877cee3dedf0fe638814a572108d61dbca3681dc
 

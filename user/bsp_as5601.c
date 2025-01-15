@@ -12,8 +12,13 @@ static float full_rotation_offset; //转过的整圈数
 //static uint8_t bufferIndex = 0;
 static float previousScaledAngle = 0.0;
 
+<<<<<<< HEAD
 #define Traverse_length   -360.0f //横移
 #define Proportion   2.49f
+=======
+#define Traverse_length   370.0f //横移
+#define Proportion   0.989f
+>>>>>>> 877cee3dedf0fe638814a572108d61dbca3681dc
 static int t=1;
 
 
@@ -58,12 +63,23 @@ static float back_angle=0,back_angle_zone=0,d=0;
 	//装上后看是加还是减，现在按加写
 	back_angle=(bsp_as5601GetAngle()/Proportion)-back_angle_zone;
 	//添加滤波+
+<<<<<<< HEAD
 	d=back_angle*Traverse_length;
 
+=======
+	
+	d=back_angle*Traverse_length;
+
+	
+>>>>>>> 877cee3dedf0fe638814a572108d61dbca3681dc
 return d;
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 877cee3dedf0fe638814a572108d61dbca3681dc
 }
 float bsp_as5601GetAngle(void) {
   float angle_data = bsp_as5601GetRawAngle();

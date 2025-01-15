@@ -39,4 +39,7 @@ _2t9\senddata.o: ..\user\bsp_as5601.h
 _2t9\senddata.o: E:\k5\1\ARM\ARMCC\Bin\..\include\stdio.h
 _2t9\senddata.o: ..\user\pitch_1.h
 _2t9\senddata.o: ..\user\yaw_roll.h
+<<<<<<< HEAD
 _2t9\senddata.o: ../Core/Inc/tim.h
+=======
+>>>>>>> 877cee3dedf0fe638814a572108d61dbca3681dc
